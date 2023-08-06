@@ -1,0 +1,207 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+ background-image: url(https://cushing-malloy.com/wp-content/uploads/2019/09/17-Ways-To-Find-Good-Books-To-Read.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: rgba(255, 255, 255, 1.0);
+}
+
+#page-head {
+  font-size: 40px;
+  text-align: center;
+}
+
+#home-button {
+position: fixed;
+bottom: 0;
+padding: 12.5px 30px;
+border: 0;
+border-radius: 100px; 
+}
+
+.nav-button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: grey;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.button-a {
+  text-decoration: none;
+  opacity: 0.7;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.button-a:hover {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity: 1;
+}
+
+.nav-button:hover {
+  background-color: #000000;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+
+}
+
+.nav-button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+#nav-bar {
+  font-size: 25px;
+  text-align: center;
+  text-align-last: justify;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.cta {
+  border: none;
+  background: none;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#book1-containor {
+  margin: auto;
+  opacity: 0.7;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#book2-containor {
+  margin: auto;
+  opacity: 0.7;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#book3-containor {
+  margin: auto;
+  opacity: 0.7;
+  transition: ease-in-out;
+  transition-duration: 0.5s; display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.book-dis {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: #ffffff;
+  width: 380px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  display: none;
+
+}
+
+#book1-containor:hover #dis1 {
+  display: block;
+}
+
+#book2-containor:hover #dis2 {
+  display: block;
+}
+
+#book3-containor:hover #dis3 {
+  display: block;
+}
+
+#book1-containor:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity: 1;
+}
+
+#book2-containor:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity: 1;
+}
+
+#book3-containor:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity: 1;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+}
